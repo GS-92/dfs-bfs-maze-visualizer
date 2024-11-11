@@ -1,0 +1,22 @@
+.inputValue{
+    display: flex;
+    gap:10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.inputMazeSize{
+    border-radius: 5px;
+    width: 80px;
+    margin-left: .5rem;
+    border: 1px solid black;
+    transition: border-color .5s;
+}
+
+.inputMazeSize:hover{
+    border-color: red;
+}
+
+.mazeSize {
+    align-items: center;
+}
