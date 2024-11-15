@@ -1,0 +1,38 @@
+.maze{
+    display: grid;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20%;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    background-color: 0.3s ease;
+   row-gap: 22px;
+  }
+
+  .cell.wall{
+    background-color: black;
+  }
+  .cell.path{
+    background-color: white;
+  }
+  .cell.visted{
+    background-color: rgb(86, 6, 172);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+  .cell.start{
+    background-color: green;
+  }
+  .cell.end{
+    background-color: red;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+  

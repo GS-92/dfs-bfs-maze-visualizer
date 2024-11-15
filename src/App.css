@@ -1,19 +1,6 @@
-.cell {
-  width: 30px;
-  height: 30px;
-  border: 1px solid white;
-  border-radius: 20%;
-}
 
 .buttons{
   margin-bottom: 1%;
-}
-
-.maze{
-  display: grid;
-  padding: 1%;
-  justify-content: center;
-  align-items: center;
 }
 
 .maze-grid{
@@ -23,25 +10,3 @@
   justify-content: center;
   padding: 1%;
 }
-
-
-.cell.wall{
-  background-color: black;
-}
-.cell.path{
-  background-color: white;
-}
-.cell.visted{
-  background-color: aqua;
-}
-.cell.start{
-  background-color: green;
-}
-.cell.end{
-  background-color: red;
-}
-.row{
-  display: flex;
-  flex-direction: row;
-}
-

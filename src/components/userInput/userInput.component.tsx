@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import "./userInput.styles.css"
 
 interface UserInputProps{
-  input1: string
+  onChange: (updatedData: {input1: string}) => void
 }
 
-const UserInput = ({onChange} : {onChange : (data: UserInputProps) => void }) => {
+const UserInput: React.FC<UserInputProps> = ({onChange}) => {
     //state for the input values (maze size) matching the name attributes of the input element
     const [mazeData, setMazeData] = useState({
         input1: '',
