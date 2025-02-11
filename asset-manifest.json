@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dfs-bfs-maze-visualizer/static/css/main.cdca945b.css",
+    "main.js": "/dfs-bfs-maze-visualizer/static/js/main.dbcd7263.js",
+    "static/js/453.f623c120.chunk.js": "/dfs-bfs-maze-visualizer/static/js/453.f623c120.chunk.js",
+    "index.html": "/dfs-bfs-maze-visualizer/index.html",
+    "main.cdca945b.css.map": "/dfs-bfs-maze-visualizer/static/css/main.cdca945b.css.map",
+    "main.dbcd7263.js.map": "/dfs-bfs-maze-visualizer/static/js/main.dbcd7263.js.map",
+    "453.f623c120.chunk.js.map": "/dfs-bfs-maze-visualizer/static/js/453.f623c120.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdca945b.css",
+    "static/js/main.dbcd7263.js"
+  ]
+}
