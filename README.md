@@ -20,7 +20,29 @@ An interactive 2D maze visualizer built with **TypeScript**, showcasing the step
 - DFS and BFS pathfinding visualizations  
 - Smooth step-by-step animations  
 - Clear maze without regeneration to compare algorithms  
-- Responsive and intuitive UI  
+- Responsive and intuitive UI
+
+
+## 🧠 How It Works
+## Maze Generation
+- A grid of customizable size is generated.
+- Walls are placed at random positions while keeping the start and end cells open.
+- The maze ensures the possibility of a solvable path, although no path is guaranteed due to randomness.
+
+## Depth-First Search (DFS)
+- DFS explores the maze by diving deep into one branch before backtracking.
+- Implemented using recursion or a stack.
+- May not find the shortest path, but it's fast and efficient for exploring deep solutions.
+
+## Breadth-First Search (BFS)
+- BFS explores all neighboring nodes level by level.
+- Implemented using a queue.
+- Always finds the shortest path (if one exists).
+
+## Visualization
+- As the algorithm runs, each visited node is highlighted step-by-step.
+- Once the end node is found, the final path is traced and shown with a distinct color.
+- Animations clearly distinguish between exploration and final path.
 
 ## 📦 Getting Started
 
