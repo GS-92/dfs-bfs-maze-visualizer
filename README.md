@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-[# Getting Started with Create React App](https://gs-92.github.io/dfs-bfs-maze-visualizer/)
+🧭 DFS-BFS Maze Visualizer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
